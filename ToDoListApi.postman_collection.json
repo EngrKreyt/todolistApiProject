@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "6d93614d-c94e-485f-93ee-05ea473f93d1",
+		"name": "ToDoListApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15203520",
+		"_collection_link": "https://speeding-star-747734.postman.co/workspace/emrf~46a82da2-1d9a-4001-9c9d-1f7634c97584/collection/15203520-6d93614d-c94e-485f-93ee-05ea473f93d1?action=share&source=collection_link&creator=15203520"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"string\",\r\n  \"password\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7020/api/Authentication/register",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7020",
+					"path": [
+						"api",
+						"Authentication",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create-task",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get-tasks",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "update -task",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "delete-task",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "token",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTE3NTAyOTUsImlzcyI6Imh0dHBzOi8vSldUQXV0aGVudGljYXRpb25TZXJ2ZXIuY29tIiwiYXVkIjoiaHR0cHM6Ly9KV1RTZXJ2aWNlUG9zdG1hbkNsaWVudC5jb20ifQ.DaCsWA5JTA3Fw_OEwl0qeEYUo898ur_2yjgu2sBxjg4"
+		}
+	]
+}
