@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2+n55XskRvnhSB0NWku9zlzWPmYdNcLUM9uBrn/uQex/tSyCTjEe3D1yP6oz9xXtcddimVGaH7oQUnnQqnM//A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kheno\\source\\repos\\todolistApiv2\\TodoListApp\\TodoListApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kheno\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
