@@ -18,3 +18,8 @@ packages to install:
 efcore
 efcoresqlserver
 efcoretools
+
+
+test user:
+username: admin
+password: password
